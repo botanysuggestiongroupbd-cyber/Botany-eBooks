@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>eBooks Hub</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1470&q=80') no-repeat center center fixed;
+      background-size: cover;
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      justify-content: flex-start;
+      align-items: center;
+      padding: 20px;
+      position: relative;
+    }
+    header {
+      width: 100%;
+      max-width: 900px;
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      margin-bottom: 40px;
+      background: rgba(0,0,0,0.4);
+      padding: 10px 20px;
+      border-radius: 12px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.4);
+    }
+    header img {
+      height: 50px;
+      width: auto;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 1.8rem;
+      font-weight: 700;
+text-shadow: 0 0 8px rgba(0,0,0,0.7);
+    }
+    .button-container {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      width: 100%;
+      max-width: 400px;
+      background: rgba(0,0,0,0.5);
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    }
+    a.btn {
+      background: rgba(255, 255, 255, 0.15);
+      padding: 15px 25px;
+      border-radius: 10px;
+      color: #fff;
+      text-decoration: none;
+      font-size: 1.1rem;
+      font-weight: 600;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+      transition: background 0.3s ease, transform 0.2s ease;
+      text-align: center;
+    }
+    a.btn:hover {
+      background: rgba(255, 255, 255, 0.3);
+      transform: scale(1.05);
+      box-shadow: 0 6px 20px rgba(0,0,0,0.4);
+    }
+    /* Pop-up overlay */
+    #popup-overlay {
+      position: fixed;
+      top:0; left:0; right:0; bottom:0;
+      background: rgba(0,0,0,0.7);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 9999;
+    }
+    #popup {
+      background: #222;
+      padding: 25px 30px;
+      border-radius: 15px;
+      max-width: 90%;
+      color: #fff;
+      font-size: 1.2rem;
+      text-align: center;
+      box-shadow: 0 0 20px rgba(0,0,0,0.7);
+position: relative;
+    }
+    #popup button {
+      margin-top: 15px;
+      padding: 10px 20px;
+      font-size: 1rem;
+      border: none;
+      background: #2575fc;
+      color: white;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+    #popup button:hover {
+      background: #6a11cb;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/Botany_suggestion_group_Bangladesh.png" alt="Logo" />
+    <h1>Botany Suggestion Group Bangladesh</h1>
+  </header>
+
+  <div class="button-container">
+    <a href="#" class="btn">Honours First Year eBooks</a>
+    <a href="#" class="btn">Honours Second Year eBooks</a>
+    <a href="#" class="btn">Honours Third Year eBooks</a>
+    <a href="#" class="btn">Honours Fourth Year eBooks</a>
+    <a href="#" class="btn">Masters Final Year eBooks</a>
+    <a href="#" class="btn">Others</a>
+ 
+
+</body>
+</html>
